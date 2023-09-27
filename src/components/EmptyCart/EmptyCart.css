@@ -1,0 +1,25 @@
+
+.emptyContainer{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #E5E5CB;
+    overflow: hidden;
+}
+.fa-face-sad-tear{
+    font-size: 100px ;
+    margin-bottom: 20px;
+}
+p{
+    font-family: 'Dela Gothic One', cursive;
+}
+.link{
+   color: #D5CEA3;
+   text-decoration: none;
+   
+}
+.link :hover{
+    transform: scale(1.2);
+}

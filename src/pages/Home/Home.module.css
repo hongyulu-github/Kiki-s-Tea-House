@@ -1,10 +1,7 @@
 
 .homeContainer{
     height: calc(100vh - 50px);
-    background-image: url('src/assets/bg.png');
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,6 +60,14 @@
     font-size: 0.9em;
     position: absolute;
     left: 0.625em;
+    bottom: 0.625em;
+    color: #1A120B;
+  }
+  .card .inCart {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0.9em;
+    position: absolute;
+    right: 0.625em;
     bottom: 0.625em;
     color: #1A120B;
   }

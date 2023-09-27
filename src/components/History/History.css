@@ -1,0 +1,25 @@
+.historyContainer{
+height: 70vh;
+width: 100%;
+border: none;
+display: flex;
+justify-content: center;
+align-items: center;
+flex: 1;
+}
+
+.historyImg{
+    width: 25%;
+    height: calc(100vh - 100px);
+    min-width: 500px;
+    margin: 30px 1%;
+}
+
+.historyText{
+    min-width: 500px;
+    width: 25%;
+    margin: 0 5%;
+    font-family: 'Merriweather', serif;
+
+
+}

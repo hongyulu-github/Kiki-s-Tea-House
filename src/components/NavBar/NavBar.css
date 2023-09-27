@@ -1,13 +1,33 @@
+
+
+h1{
+    font-family: 'Dela Gothic One', cursive;
+    white-space: nowrap;
+    
+}
+
+.navBar:nth-child(1){
+   display: flex;
+}
+.navBar > div > i{
+    margin: 0 11px;
+    color: #1A120B;
+}
 .navBar{
-    list-style: none;
+   
     height: 50px;
     background: #1A120B;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 10px;
+    color: #E5E5CB;
 
 }
-
+.navList{
+    list-style: none;
+    display: flex;
+}
 .navLink{
     margin: 0 10px;
 }
