@@ -1,15 +1,15 @@
-const redTea = 'https://unsplash.com/photos/T9yWxecVV2Q'
-const greenTea = 'https://unsplash.com/photos/gT_rAfFvCyw'
-const blackTea = 'https://unsplash.com/photos/2CRgKZAyPXg'
-const floralTea = 'https://unsplash.com/photos/4orQSKpTKPI'
-const mixedTea = 'https://unsplash.com/photos/59Kh3TAajg0'
-const teaTree = 'https://unsplash.com/photos/a-lush-green-field-filled-with-lots-of-trees-vH3l29R9eJw'
-const pickingTea = 'https://unsplash.com/photos/teUe-6Mn9kI'
-const teaPot = 'https://unsplash.com/photos/BOIBMiFYIPo'
-const mainPageBg = 'https://unsplash.com/photos/XXuVXLy5gHU'
+const redTea = 'https://images.unsplash.com/photo-1628153792464-21bffac488d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80'
+const greenTea = 'https://images.unsplash.com/photo-1627894006066-b45786537103?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2117&q=80'
+const blackTea = 'https://images.unsplash.com/photo-1433891248364-3ce993ff0e92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
+const floralTea = 'https://images.unsplash.com/photo-1563911892317-47551470aed8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80'
+const mixedTea = 'https://images.unsplash.com/photo-1563822249548-9a72b6353cd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80'
+const teaTree = 'https://plus.unsplash.com/premium_photo-1692049123591-680942259565?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80'
+const pickingTea = 'https://images.unsplash.com/photo-1615796000240-c0b7cd3d385f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2127&q=80'
+const teaPot = 'https://images.unsplash.com/photo-1587834323138-befbf2c33797?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
+const mainPageBg = 'https://images.unsplash.com/photo-1575722290270-626b0208df99?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80'
 
 
-const products =[
+export const products =[
     {
         id: 1,
         name: 'Red Tea',
@@ -40,30 +40,7 @@ const products =[
         price: calculatePrice(),
         imageUrl: mixedTea,
       },
-      {
-        id: 6,
-        name: 'Tea Tree',
-        price: calculatePrice(),
-        imageUrl: teaTree,
-      },
-      {
-        id: 7,
-        name: 'Picking Tea',
-        price: calculatePrice(),
-        imageUrl: pickingTea,
-      },
-      {
-        id: 8,
-        name: 'Tea Pot',
-        price: calculatePrice(),
-        imageUrl: teaPot,
-      },
-      {
-        id: 9,
-        name: 'Main Page Background',
-        price: calculatePrice(),
-        imageUrl: mainPageBg,
-      },
+    
 ]
 
 function calculatePrice() {
@@ -72,4 +49,4 @@ function calculatePrice() {
   }
 
 
-  console.log(products);
+

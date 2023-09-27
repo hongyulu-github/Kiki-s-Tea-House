@@ -1,0 +1,25 @@
+.navBar{
+    list-style: none;
+    height: 50px;
+    background: #1A120B;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.navLink{
+    margin: 0 10px;
+}
+
+.navLink a {
+    text-decoration: none;
+    color: #E5E5CB;
+    font-size: 17px;
+}
+
+.navLink a i:hover{
+    transform: scale(1.2);
+    color: #D5CEA3;
+}
+

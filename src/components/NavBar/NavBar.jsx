@@ -1,12 +1,13 @@
 import React from 'react'
+import './NavBar.css'
 
 const NavBar = () => {
   return (
-    <ul >
-    <li ><a href="#home">Home</a></li>
-    <li ><a href="#about">About</a></li>
-    <li ><a href="#cart">Cart</a></li>
-</ul>
+    <ul className='navBar'>
+      <li className='navLink'><a href="/"><i className="fa-solid fa-house"></i></a></li>
+      <li className='navLink'><a href="#about"><i className="fa-solid fa-people-group"></i> </a></li>
+      <li className='navLink'><a href="#cart"><i className="fa-solid fa-cart-shopping"></i></a></li>
+    </ul>
   )
 }
 
